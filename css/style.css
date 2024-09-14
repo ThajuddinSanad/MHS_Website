@@ -257,6 +257,12 @@ a:focus {
     color: white;
     border-color: blue;
 }
+.construction-link {
+    padding: 5px 10px; /* Adjust as necessary for proper spacing */
+    text-align: center; /* Ensures text is centered within the element */
+    white-space: nowrap; /* Prevents the text from breaking into multiple lines */
+    display: inline-block; /* Ensures it's treated as an inline element but allows padding and text alignment */
+}
 
 @media (max-width: 768px) {
     .dropdown-menu {
